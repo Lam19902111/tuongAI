@@ -1,0 +1,23 @@
+
+name: Quy trinh lam viec
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  kiem-tra:
+    name: Kiem tra repository
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Lay ma nguon
+        uses: actions/checkout@v4
+
+      - name: Thong bao thanh cong
+        run: echo "GitHub Actions da chay thanh cong!"
