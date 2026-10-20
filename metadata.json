@@ -1,0 +1,6 @@
+{
+  "name": "Tường Học Tập AI - Chấm Bài & Truy Gốc Lỗi",
+  "description": "Phần mềm chấm bài thông minh bằng AI, đọc chữ viết tay vở ô li, chỉ lỗi sai từng dòng, phân tích gốc rễ nguyên nhân và gợi ý bài tập luyện thêm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
